@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	UU
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert-UU perl module
 Summary(pl):	Modu³ perla Convert-UU
 Name:		perl-Convert-UU
 Version:	0.40
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Convert-UU - perl module for uuencode and uudecode.
 Convert-UU - modu³ perla dla uuencode i uudecode.
 
 %prep
-%setup -q -n Convert-UU-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
