@@ -9,7 +9,7 @@ Summary:	Convert::UU - Perl module for uuencode and uudecode
 Summary(pl):	Convert::UU - modu³ Perla zastêpuj±cy uuencode i uudecode
 Name:		perl-Convert-UU
 Version:	0.52
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
