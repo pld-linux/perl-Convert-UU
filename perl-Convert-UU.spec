@@ -26,7 +26,7 @@ Convert::UU - modu³ perla dla uuencode i uudecode.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
