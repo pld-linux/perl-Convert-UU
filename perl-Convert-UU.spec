@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	UU
-Summary:	Convert::UU perl module
-Summary(pl):	Modu³ perla Convert::UU
+Summary:	Convert::UU - Perl module for uuencode and uudecode
+Summary(pl):	Convert::UU - modu³ Perla zastêpuj±cy uuencode i uudecode
 Name:		perl-Convert-UU
 Version:	0.52
 Release:	2
-License:	GPL
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1a52e65a9459e4deafd5b2fdf932d0ba
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert::UU - perl module for uuencode and uudecode.
+Convert::UU is a Perl module for uuencode and uudecode.
 
 %description -l pl
-Convert::UU - modu³ perla dla uuencode i uudecode.
+Convert::UU jest modu³em Perla zastêpuj±cym uuencode i uudecode.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
