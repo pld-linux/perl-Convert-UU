@@ -4,8 +4,8 @@
 Summary:	Convert::UU perl module
 Summary(pl):	Modu³ perla Convert::UU
 Name:		perl-Convert-UU
-Version:	0.40
-Release:	8
+Version:	0.52
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -37,7 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{perl_sitelib}/Convert/UU.pm
 %{_mandir}/man[13]/*
