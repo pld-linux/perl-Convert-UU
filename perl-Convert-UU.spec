@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Convert
-%define	pnam	UU
+%define		pdir	Convert
+%define		pnam	UU
 Summary:	Convert::UU - Perl module for uuencode and uudecode
 Summary(pl):	Convert::UU - modu³ Perla zastêpuj±cy uuencode i uudecode
 Name:		perl-Convert-UU
