@@ -32,14 +32,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf Changes README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changes README
 %attr(755,root,root) %{_bindir}/*
 %{perl_sitelib}/Convert/UU.pm
 %{_mandir}/man[13]/*
