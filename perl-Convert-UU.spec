@@ -5,11 +5,11 @@ Summary:	Convert::UU perl module
 Summary(pl):	Modu³ perla Convert::UU
 Name:		perl-Convert-UU
 Version:	0.52
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -24,7 +24,8 @@ Convert::UU - modu³ perla dla uuencode i uudecode.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -39,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog
 %attr(755,root,root) %{_bindir}/*
-%{perl_sitelib}/Convert/UU.pm
+%{perl_vendorlib}/Convert/UU.pm
 %{_mandir}/man[13]/*
