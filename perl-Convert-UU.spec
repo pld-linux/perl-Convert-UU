@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Convert
 %define	pnam	UU
-Summary:	Convert-UU perl module
-Summary(pl):	Modu³ perla Convert-UU
+Summary:	Convert::UU perl module
+Summary(pl):	Modu³ perla Convert::UU
 Name:		perl-Convert-UU
 Version:	0.40
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Convert-UU - perl module for uuencode and uudecode.
+Convert::UU - perl module for uuencode and uudecode.
 
 %description -l pl
-Convert-UU - modu³ perla dla uuencode i uudecode.
+Convert::UU - modu³ perla dla uuencode i uudecode.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
