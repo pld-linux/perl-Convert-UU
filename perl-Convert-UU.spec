@@ -3,7 +3,7 @@ Summary:	Convert-UU perl module
 Summary(pl):	Modu³ perla Convert-UU
 Name:		perl-Convert-UU
 Version:	0.40
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
