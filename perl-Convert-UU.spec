@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	UU
 Summary:	Convert::UU - Perl module for uuencode and uudecode
-Summary(pl):	Convert::UU - modu³ Perla zastêpuj±cy uuencode i uudecode
+Summary(pl.UTF-8):   Convert::UU - moduÅ‚ Perla zastÄ™pujÄ…cy uuencode i uudecode
 Name:		perl-Convert-UU
 Version:	0.52
 Release:	3
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Convert::UU is a Perl module for uuencode and uudecode.
 
-%description -l pl
-Convert::UU jest modu³em Perla zastêpuj±cym uuencode i uudecode.
+%description -l pl.UTF-8
+Convert::UU jest moduÅ‚em Perla zastÄ™pujÄ…cym uuencode i uudecode.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
