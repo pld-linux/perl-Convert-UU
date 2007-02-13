@@ -6,7 +6,7 @@
 %define		pdir	Convert
 %define		pnam	UU
 Summary:	Convert::UU - Perl module for uuencode and uudecode
-Summary(pl.UTF-8):   Convert::UU - moduł Perla zastępujący uuencode i uudecode
+Summary(pl.UTF-8):	Convert::UU - moduł Perla zastępujący uuencode i uudecode
 Name:		perl-Convert-UU
 Version:	0.52
 Release:	3
