@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Convert
 %define		pnam	UU
+%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::UU - Perl module for uuencode and uudecode
 Summary(pl.UTF-8):	Convert::UU - moduł Perla zastępujący uuencode i uudecode
 Name:		perl-Convert-UU
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f60f49d15770503efa5ed0c81296ef2f
+URL:		http://search.cpan.org/dist/Convert-UU/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
