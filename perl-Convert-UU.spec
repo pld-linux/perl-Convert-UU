@@ -4,7 +4,6 @@
 
 %define		pdir	Convert
 %define		pnam	UU
-%include	/usr/lib/rpm/macros.perl
 Summary:	Convert::UU - Perl module for uuencode and uudecode
 Summary(pl.UTF-8):	Convert::UU - moduł Perla zastępujący uuencode i uudecode
 Name:		perl-Convert-UU
